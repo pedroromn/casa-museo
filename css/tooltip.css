@@ -1,0 +1,27 @@
+div#tipDiv {
+    font-size:11px; 
+    line-height:1.2;
+    color:#fff; 
+    background-color:#444; 
+    border:1px solid #333; 
+    padding:4px;
+    width:200px; 
+}
+
+/* for optional caption */
+div#tipDiv div.caption {
+    font-weight:bold; 
+    text-align:center;
+    margin-bottom:4px;
+    }
+
+/* for divs with classes img and txt 
+   used in dw_Tooltip.wrapImageOverText and other image-text formatting functions */
+div#tipDiv div.img { 
+    text-align:center; 
+    margin:4px 0; 
+    }
+/*div#tipDiv div.txt { 
+    text-align:center; 
+    margin:4px 0;
+    }*/

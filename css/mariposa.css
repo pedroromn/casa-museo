@@ -1,0 +1,79 @@
+#gabofantasias{
+    position: absolute;
+    top: 100px;
+    left: 100%;
+    -webkit-animation: volar_izq 20s infinite ease-in-out;
+    -moz-animation: volar_izq 15s infinite ease-in-out;
+    animation: volar_izq 15s infinite ease-in-out;
+}
+
+@-moz-keyframes volar_izq{
+    0%{
+        left:100%;
+        top:200px;
+    }25%{
+        top:300px;
+    }50%{
+        top:200px;
+    }75%{
+        top:350px;
+    }100%{
+        left:-110px;
+        top:200px;
+    }
+}
+
+@-webkit-keyframes volar_izq{
+    0%{
+        left:100%;
+        top:200px;
+    }25%{
+         top:300px;
+     }50%{
+          top:200px;
+      }75%{
+           top:350px;
+       }100%{
+            left:-110px;
+            top:200px;
+        }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,75 @@
+
+#basic-modal-content {display:none;}
+
+/* Overlay */
+#simplemodal-overlay {background-color:#000; cursor:wait;}
+
+/* Container */
+#simplemodal-container{
+    height:588px; 
+    width:980px; 
+    /*color:#bbb;*/ 
+    background-color:#333;
+    border:8px solid #444;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    border-radius: 10px; 
+    /*padding:12px;*/
+    
+}
+
+video.box{
+    width: 100%;
+}
+
+a.modalCloseImg {
+    background:url(../images/basic/x.png) no-repeat; 
+    width:25px; 
+    height:29px; 
+    display:inline; 
+    z-index:3200; 
+    position:absolute; 
+    top:-15px; 
+    right:-16px; 
+    cursor:pointer;
+}
+#simplemodal-container h3 {
+    font-family: Century Gothic, Arial, Courier New, Sans-Serif;
+    font-size: 20pt;
+    color: #fff;
+    text-align: center;
+}
+
+.menu ul{
+    list-style-type: none;
+    position: relative;
+    margin: 0px;
+    padding: 0px;
+    width: 570px;
+    font-family: Century Gothic, Arial, Courier New, Sans-Serif;
+    font-size: 12pt;    
+}
+
+.menu ul li {
+    background-color: #666;
+
+}
+
+.menu ul li a {
+    color: #fff;
+    text-decoration: none;
+    text-transform: uppercase;
+    display: block;
+    padding: 10px 10px 10px 10px;
+    /*padding: 5px;*/
+}
+
+/*
+#audio{
+    display: none;
+}*/
+
+#basic-modal{
+    margin: 0;
+    border: 5px;
+}
